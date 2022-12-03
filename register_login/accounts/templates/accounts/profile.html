@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-     {{user.username}}
+    </title>
+</head>
+<body>
+    {{user.username}}
+    {%if user.username == "arev"%}
+    <br>
+    Bal - 238543 AMD
+    {%else%}
+    <br>
+    Bal - 0 AMD
+
+    {%endif%}
+<br>
+    <a href="">Shop</a> <br>
+    <a href="/logout">Logout</a>
+
+</body>
+</html>
